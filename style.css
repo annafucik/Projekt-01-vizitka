@@ -48,7 +48,7 @@ a:active{
 }
 
 /* Obrázky */
-.omne img {
+.ja{
     width: 250px;
     margin-right: 50px;
     float: left;
@@ -61,9 +61,25 @@ a:active{
 }
 
 /* Sekce */
+header{
+    background-image: url(obrazky/knihy3.jpeg);
+    padding: 100px 0px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
 section {
     background-color: white;
     padding: 1px 5%;
+}
+
+.prace{
+    clear: both;
+}
+
+.kurzy{
+    padding-bottom: 30px;
 }
 
 footer{
@@ -71,16 +87,4 @@ footer{
     background-color: #ef7270;
     color: white;
     padding: 20px;
-}
-
-.kurzy{
-    padding-bottom: 30px;
-}
-
-header {
-    background-image: url(obrazky/knihy3.jpeg);
-    padding: 100px 0px;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
 }
