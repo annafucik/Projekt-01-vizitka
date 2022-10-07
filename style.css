@@ -1,3 +1,86 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+body{
+    margin: 0;
+    padding: 8% 5% 0 5%;
+    background-color:  #ef7270;
+    line-height: 1.5;
+    font-family: "roboto serif", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    color: #ef7270;
+}
+
+h2 {
+    color: #ef7270;
+}
+
+h3 {
+    color: #3b8ea5;  
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+h4{
+    padding-bottom: 0;
+    margin: 5px 0;
+}
+
+p {
+    margin-top: 5px;
+}
+
+/* Odkazy */
+a {
+    color: #ef7270; 
+}
+
+a:hover,
+a:focus,    
+a:active{
+   color: #3b8ea5; 
+}
+
+/* Obrázky */
+.omne img {
+    width: 250px;
+    margin-right: 50px;
+    float: left;
+}
+
+.kontakt img{
+    border-radius: 0;
+    width: 25px;
+    border-radius: 25%;
+}
+
+/* Sekce */
+section {
+    background-color: white;
+    padding: 1px 5%;
+}
+
+footer{
+    text-align: center;
+    background-color: #ef7270;
+    color: white;
+    padding: 20px;
+}
+
+.kurzy{
+    padding-bottom: 30px;
+}
+
+header {
+    background-image: url(obrazky/knihy3.jpeg);
+    padding: 100px 0px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
