@@ -13,7 +13,7 @@ body{
 h1 {
     text-align: center;
     font-size: 50px;
-    margin-top: 20px;
+    margin-top: 30px;
     color: #ef7270;
 }
 
@@ -51,6 +51,8 @@ a:active{
 .ja{
     width: 250px;
     margin-right: 50px;
+    border-radius: 10% 0 10% 0;
+    border: #3b8ea5 solid 1px; 
     float: left;
 }
 
@@ -62,8 +64,8 @@ a:active{
 
 /* Sekce */
 header{
-    background-image: url(obrazky/knihy3.jpeg);
-    padding: 100px 0px;
+    background-image: url(obrazky/knihyradamodra.jpeg);
+    padding: 200px 0px;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
